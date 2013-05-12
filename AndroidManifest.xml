@@ -32,5 +32,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".activity.LengthConversionActivity"
+                  android:label="@string/option_area"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
     </application>
 </manifest> 

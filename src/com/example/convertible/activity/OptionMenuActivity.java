@@ -58,6 +58,11 @@ public class OptionMenuActivity extends Activity {
         startActivity(intent);
     }
 
+    public void onLengthButtonClick(View view) {
+        Intent intent = new Intent(this, LengthConversionActivity.class);
+        startActivity(intent);
+    }
+
 
 }
 

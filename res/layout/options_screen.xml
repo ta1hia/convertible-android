@@ -54,7 +54,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onLengthButtonClick">
     </Button>
 
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
