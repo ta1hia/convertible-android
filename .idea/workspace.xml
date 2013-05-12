@@ -23,32 +23,53 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="" />
+    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/green_gradient.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/length_screen.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/BuildConfig.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/Manifest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/R.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/R.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/untitled/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/BaseActivity.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/untitled/OptionMenuActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/area_screen.xml" afterPath="$PROJECT_DIR$/res/layout/area_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/options_screen.xml" afterPath="$PROJECT_DIR$/res/layout/options_screen.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/themes_sexy_convert.xml" afterPath="$PROJECT_DIR$/res/values/themes_sexy_convert.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="sexy-convert.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368369271628" ignored="false" />
     <file path="/main.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368293266254" ignored="false" />
-    <file path="/strings.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368339751538" ignored="false" />
+    <file path="/strings.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368383564306" ignored="false" />
     <file path="/a.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319999752" ignored="false" />
     <file path="/DisplayMessageActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368295002124" ignored="false" />
-    <file path="/BaseActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368338809727" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368369019978" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368332580851" ignored="false" />
+    <file path="/BaseActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368371851834" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385243419" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368372399383" ignored="false" />
     <file path="/style.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368317768372" ignored="false" />
     <file path="/style1.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319484292" ignored="false" />
-    <file path="/fragment.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368341352191" ignored="false" />
-    <file path="/themes_sexy_convert.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368368448097" ignored="false" />
-    <file path="/colors.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368340830093" ignored="false" />
+    <file path="/fragment.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368382669494" ignored="false" />
+    <file path="/themes_sexy_convert.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368372386683" ignored="false" />
+    <file path="/colors.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368380611995" ignored="false" />
     <file path="/start_street.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368328262206" ignored="false" />
     <file path="/red_button.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368340865223" ignored="false" />
-    <file path="/OptionMenuActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368342347026" ignored="false" />
+    <file path="/OptionMenuActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368372535419" ignored="false" />
     <file path="/option_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368331005501" ignored="false" />
     <file path="/start_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368336255328" ignored="false" />
-    <file path="/a.dummy" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368334488548" ignored="false" />
+    <file path="/a.dummy" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368377281103" ignored="false" />
     <file path="/customListAdapter.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368334901414" ignored="false" />
     <file path="/options_list.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368339269737" ignored="false" />
-    <file path="/options_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368342971837" ignored="false" />
-    <file path="/button_color.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368342540651" ignored="false" />
+    <file path="/options_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368378269933" ignored="false" />
+    <file path="/button_color.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368378440233" ignored="false" />
+    <file path="/AreaConversionActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368383693625" ignored="false" />
+    <file path="/green_gradient.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368372014300" ignored="false" />
+    <file path="/area_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385208641" ignored="false" />
+    <file path="/edittext_green_state.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368381896651" ignored="false" />
+    <file path="/area_icon.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385031245" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,19 +141,17 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="17" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-7.96">
+            <state line="27" column="0" selection-start="992" selection-end="1470" vertical-scroll-proportion="-5.72">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/untitled/BaseActivity.java">
+        <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="988" selection-end="1135" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="33" column="20" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,7 +159,7 @@
       <file leaf-file-name="red_button.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/drawable/red_button.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="51" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+            <state line="5" column="13" selection-start="0" selection-end="246" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,17 +171,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="12" selection-start="0" selection-end="5338" vertical-scroll-proportion="-5.72">
+            <state line="33" column="0" selection-start="1240" selection-end="1779" vertical-scroll-proportion="-0.6">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="themes_sexy_convert.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/themes_sexy_convert.xml">
+      <file leaf-file-name="AreaConversionActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="57" selection-start="241" selection-end="252" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="19" column="72" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,25 +194,19 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.6893491">
+            <state line="41" column="14" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.459799">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="button_color.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/button_color.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="58" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
+      <file leaf-file-name="length_screen.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/length_screen.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="118" selection-end="126" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -200,19 +215,17 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+            <state line="18" column="6" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OptionMenuActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/untitled/OptionMenuActivity.java">
+      <file leaf-file-name="colors.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="119" column="17" selection-start="4582" selection-end="4582" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -224,25 +237,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/layout/da.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/untitled/custom_adapters/customListAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/example/untitled/customListAdapter.java" />
-        <option value="$PROJECT_DIR$/res/color/button_highlight.xml" />
-        <option value="$PROJECT_DIR$/res/layout/options_list.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/untitled/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/red_button.xml" />
-        <option value="$PROJECT_DIR$/res/layout/start_screen.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/untitled/OptionMenuActivity.java" />
-        <option value="$PROJECT_DIR$/res/drawable/button_color.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/untitled/tools/divider_grey.java" />
+        <option value="$PROJECT_DIR$/src/com/example/convertible/OptionMenuActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/divider_grey.xml" />
         <option value="$PROJECT_DIR$/res/layout/options_screen.xml" />
-        <option value="$PROJECT_DIR$/res/values/themes_sexy_convert.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/button_color.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/red_button.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/dark_green_gradient.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/edittext_green_state.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/area_icon.xml" />
         <option value="$PROJECT_DIR$/res/layout/area_screen.xml" />
+        <option value="$PROJECT_DIR$/res/layout/length_screen.xml" />
       </list>
     </option>
   </component>
@@ -250,12 +271,12 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1303" />
-    <option name="height" value="773" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -282,6 +303,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -297,6 +319,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convertible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convertible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,38 +411,43 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.sourceCode.XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.untitled" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/drawable" />
       <recent name="$PROJECT_DIR$/res/values" />
       <recent name="$PROJECT_DIR$/res/color" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
@@ -419,20 +486,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="XSLT" factoryName="XSLT">
-      <option name="myOutputFile" />
-      <option name="myOpenOutputFile" value="false" />
-      <option name="myOpenInBrowser" value="false" />
-      <option name="mySmartErrorHandling" value="true" />
-      <option name="myRunnerPort" value="34873" />
-      <option name="myVmArguments" />
-      <option name="myWorkingDirectory" />
-      <option name="myModule" />
-      <option name="myJdk" />
-      <parameters />
-      <OutputType value="CONSOLE" save-to-file="false" />
-      <FileType name="XML" />
-      <JdkChoice value="FROM_MODULE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -462,17 +526,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -527,7 +594,7 @@
     </configuration>
     <configuration default="false" name="sexy-convert" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="sexy-convert" />
-      <option name="ACTIVITY_CLASS" value="com.example.untitled.BaseActivity" />
+      <option name="ACTIVITY_CLASS" value="com.example.convertible.activity.BaseActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
@@ -578,33 +645,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7312" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1816733" sideWeight="0.6896" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1819633" sideWeight="0.8238255" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2256" sideWeight="0.4996016" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22483222" sideWeight="0.49960095" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.6912752" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3104" sideWeight="0.5003984" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4688" sideWeight="0.4996016" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17617449" sideWeight="0.50039905" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4681208" sideWeight="0.49960095" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.7312" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7696" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.6895973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23187251" sideWeight="0.6896" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3104" sideWeight="0.4996016" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23144454" sideWeight="0.8238255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17617449" sideWeight="0.49960095" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -672,107 +739,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../android-sdk-linux/platforms/android-8/android.jar!/java/lang/Override.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../android-sdk-linux/platforms/android-8/android.jar!/android/widget/ArrayAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../android-sdk-linux/platforms/android-8/android.jar!/java/lang/String.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="5" selection-start="4530" selection-end="4530" vertical-scroll-proportion="-9.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../android-sdk-linux/platforms/android-8/android.jar!/android/widget/ImageButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/red_gradient.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="42" selection-start="1044" selection-end="1044" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="29" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="118" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/red_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="51" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/start_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="17" selection-start="1251" selection-end="1251" vertical-scroll-proportion="-7.96">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/untitled/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="988" selection-end="1135" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/untitled/OptionMenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/button_color.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="58" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+        <state line="11" column="5" selection-start="0" selection-end="291" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/themes_sexy_convert.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="241" selection-end="252" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="11" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/button_color.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/green_gradient.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="0" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="17" selection-start="4582" selection-end="4582" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="20" selection-start="1006" selection-end="1006" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="72" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/red_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="0" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -782,7 +823,27 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="12" selection-start="0" selection-end="5338" vertical-scroll-proportion="-5.72">
+        <state line="33" column="0" selection-start="1240" selection-end="1779" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/start_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="992" selection-end="1470" vertical-scroll-proportion="-5.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/length_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -792,7 +853,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.6893491">
+        <state line="41" column="14" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.459799">
           <folding />
         </state>
       </provider>

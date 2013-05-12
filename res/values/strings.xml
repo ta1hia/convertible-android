@@ -11,4 +11,17 @@
     <string name="option_temperature">temperature</string>
     <string name="option_speed">speed</string>
     <string name="option_angle">angle</string>
+
+    <!-- Conversion Page -->
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="select_unit">select unit</string>
+    <string name="unit">unit</string>
+    <string name="enter_amount">enter amount to convert</string>
+    <string name="result_amount">result</string>
+
+
+
+
+
 </resources>

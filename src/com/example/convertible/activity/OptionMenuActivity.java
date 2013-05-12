@@ -1,16 +1,13 @@
-package com.example.untitled;
+package com.example.convertible.activity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.AdapterView.OnItemClickListener;
+import com.example.convertible.R;
+import com.example.convertible.activity.AreaConversionActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -57,7 +54,7 @@ public class OptionMenuActivity extends Activity {
     };
 
     public void onAreaButtonClick(View view) {
-        Intent intent = new Intent(this, BaseActivity.class);
+        Intent intent = new Intent(this, AreaConversionActivity.class);
         startActivity(intent);
     }
 

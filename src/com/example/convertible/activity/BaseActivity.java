@@ -1,16 +1,12 @@
-package com.example.untitled;
+package com.example.convertible.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import android.graphics.Typeface;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
-import android.util.AttributeSet;
-import android.content.Context;
+import com.example.convertible.R;
 
 
 public class BaseActivity extends Activity
