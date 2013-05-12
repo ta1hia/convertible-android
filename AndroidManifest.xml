@@ -33,7 +33,55 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.LengthConversionActivity"
-                  android:label="@string/option_area"
+                  android:label="@string/option_length"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.VolumeConversionActivity"
+                  android:label="@string/option_volume"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MassConversionActivity"
+                  android:label="@string/option_mass"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.NumberSystemConversionActivity"
+                  android:label="@string/option_number_system"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TemperatureConversionActivity"
+                  android:label="@string/option_number_system"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SpeedConversionActivity"
+                  android:label="@string/option_speed"
+                  android:screenOrientation="portrait"
+                  android:theme="@style/sexy_theme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.AngleConversionActivity"
+                  android:label="@string/option_angle"
                   android:screenOrientation="portrait"
                   android:theme="@style/sexy_theme">
             <intent-filter>

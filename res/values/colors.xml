@@ -13,7 +13,7 @@ Organized by: Willie Tsang
     <color name="android_green">#A4C639</color>
 
     <!-- Windows 8 style -->
-    <color name="win8_magenta">#FF0097</color>
+    <color name="win8_magenta">#685642</color>
     <color name="win8_purple">#A200FF</color>
     <color name="win8_teal">#00ABA9</color>
     <color name="win8_lime">#8CBF26</color>
@@ -114,6 +114,7 @@ Organized by: Willie Tsang
     <color name="DeepSkyBlue">#00BFFF</color>
     <color name="DimGray">#696969</color>
     <color name="DodgerBlue">#1E90FF</color>
+    <color name="DarkGreenCustom">#ff1e552c</color>
     <!-- e -->
     <!-- f -->
     <color name="fuchsia">#FF00FF</color>

@@ -63,6 +63,36 @@ public class OptionMenuActivity extends Activity {
         startActivity(intent);
     }
 
+    public void onVolumeButtonClick(View view) {
+        Intent intent = new Intent(this, VolumeConversionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onMassButtonClick(View view) {
+        Intent intent = new Intent(this, MassConversionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onNumberSystemButtonClick(View view) {
+        Intent intent = new Intent(this, NumberSystemConversionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onTemperatureButtonClick(View view) {
+        Intent intent = new Intent(this, TemperatureConversionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onSpeedButtonClick(View view) {
+        Intent intent = new Intent(this, SpeedConversionActivity.class);
+        startActivity(intent);
+    }
+
+    public void onAngleButtonClick(View view) {
+        Intent intent = new Intent(this, AngleConversionActivity.class);
+        startActivity(intent);
+    }
+
 
 }
 

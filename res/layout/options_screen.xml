@@ -67,7 +67,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onVolumeButtonClick">
     </Button>
 
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,7 +80,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onMassButtonClick">
     </Button>
 
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
@@ -93,7 +93,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onNumberSystemButtonClick">
     </Button>
 
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
@@ -106,7 +106,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onTemperatureButtonClick">
     </Button>
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/option_speed"
@@ -118,7 +118,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onSpeedButtonClick">
     </Button>
     <Button xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/option_angle"
@@ -130,7 +130,7 @@
               android:textColor="@drawable/button_color"
               android:gravity="left"
               android:background="#0000"
-              android:onClick="onAreaButtonClick">
+              android:onClick="onAngleButtonClick">
     </Button>
 
 </LinearLayout>

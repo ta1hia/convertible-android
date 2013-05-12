@@ -4,7 +4,7 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              android:background="@drawable/purple_gradient">
+              android:background="@drawable/blue_gradient">
 
     <TextView
             android:id="@+id/sexy"
@@ -34,13 +34,13 @@
             android:background="@color/MainGrey"/>
 
     <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-              android:id="@+id/option_length"
+              android:id="@+id/option_number_system"
               android:layout_width="fill_parent"
               android:layout_height="wrap_content"
               android:paddingTop="10dp"
               android:paddingBottom="10dp"
               android:textSize="25sp"
-              android:text="@string/option_length"
+              android:text="@string/option_number_system"
               android:gravity="center"
               android:background="#0000">
     </TextView>
