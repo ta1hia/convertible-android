@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">convertible</string>
+    <string name="app_description">a unit conversion tool</string>
+    <string name="option_menu_activity">Conversion Selection</string>
+    <string name="option_area">area</string>
+    <string name="option_length">length</string>
+    <string name="option_volume">volume</string>
+    <string name="option_mass">mass</string>
+    <string name="option_number_system">number system</string>
+    <string name="option_temperature">temperature</string>
+    <string name="option_speed">speed</string>
+    <string name="option_angle">angle</string>
+</resources>
