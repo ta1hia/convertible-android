@@ -23,24 +23,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/green_gradient.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/length_screen.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/BuildConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/Manifest.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/Manifest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gen/com/example/untitled/R.java" afterPath="$PROJECT_DIR$/gen/com/example/convertible/R.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/untitled/BaseActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/example/untitled/OptionMenuActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/area_screen.xml" afterPath="$PROJECT_DIR$/res/layout/area_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/options_screen.xml" afterPath="$PROJECT_DIR$/res/layout/options_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/themes_sexy_convert.xml" afterPath="$PROJECT_DIR$/res/values/themes_sexy_convert.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="" />
     <ignored path="sexy-convert.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368293266254" ignored="false" />
@@ -194,7 +177,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="14" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.459799">
+            <state line="5" column="8" selection-start="0" selection-end="7076" vertical-scroll-proportion="0.18844222">
               <folding />
             </state>
           </provider>
@@ -646,7 +629,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7312" order="4" side_tool="false" content_ui="tabs" />
@@ -664,7 +647,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.7312" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.6895973" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23144454" sideWeight="0.8238255" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23144454" sideWeight="0.8238255" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17617449" sideWeight="0.49960095" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -853,7 +836,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="14" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.459799">
+        <state line="5" column="8" selection-start="0" selection-end="7076" vertical-scroll-proportion="0.18844222">
           <folding />
         </state>
       </provider>
