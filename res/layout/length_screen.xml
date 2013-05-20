@@ -57,43 +57,32 @@
                   android:text="@string/from"
                 >
         </TextView>
-        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-                  android:paddingLeft="15dp"
-                  android:textSize="15sp"
-                  android:hint="@string/select_unit"
-                  android:textColorHint="@color/LightGrey"
-                  android:inputType="text"
-                  android:background="@null"
-                >
-        </EditText>
+        <Spinner
+                android:id="@+id/length_from_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
     </LinearLayout>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:layout_width="fill_parent"
+                  android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
                   android:orientation="horizontal">
 
         <TextView xmlns:android="http://schemas.android.com/apk/res/android"
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:paddingLeft="10dp"
+                  android:paddingLeft="9dp"
                   android:textSize="15sp"
                   android:text="@string/to"
                 >
         </TextView>
-        <EditText xmlns:android="http://schemas.android.com/apk/res/android"
-                  android:layout_width="fill_parent"
-                  android:layout_height="wrap_content"
-                  android:paddingLeft="15dp"
-                  android:textSize="15sp"
-                  android:hint="@string/select_unit"
-                  android:textColorHint="@color/LightGrey"
-                  android:inputType="text"
-                  android:background="@null"
-                >
-        </EditText>
+        <Spinner
+                android:id="@+id/length_to_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="15sp"
+                android:padding="-20dp"/>
     </LinearLayout>
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:layout_width="fill_parent"
