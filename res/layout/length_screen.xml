@@ -114,17 +114,23 @@
 
     </LinearLayout>
 
-    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    <Button xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/enter_amount_unit"
-              android:layout_width="match_parent"
+              android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:gravity="center"
-              android:textSize="70sp"
-              android:layout_marginRight="45dp"
+              android:layout_marginLeft="100dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/purple_button"
+              android:textSize="50dp"
+              android:paddingTop="0dp"
+              android:paddingBottom="0dp"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp"
               android:textColor="@color/MainGrey"
               android:text="="
             >
-    </TextView>
+    </Button>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                   android:layout_width="fill_parent"

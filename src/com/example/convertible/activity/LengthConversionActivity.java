@@ -3,15 +3,16 @@ package com.example.convertible.activity;
 import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
+import android.widget.Toast;
 import android.widget.Spinner;
 import android.widget.TextView;
 import com.example.convertible.R;
 
 
 public class LengthConversionActivity extends Activity {
-
-    private Spinner mLengthSpinner;
 
     /**
      * Called when the activity is first created.
@@ -21,6 +22,10 @@ public class LengthConversionActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.length_screen);
 
+        initPage();
+    }
+
+    private void initPage() {
         Typeface font1 = Typeface.createFromAsset(getAssets(), "Roboto_Thin.ttf");
         TextView txt = (TextView) findViewById(R.id.sexy);
         txt.setTypeface(font1);
@@ -39,22 +44,71 @@ public class LengthConversionActivity extends Activity {
         txt = (TextView) findViewById(R.id.result_amount_unit);
         txt.setTypeface(font2);
 
-        initLengthFromSpinner();
-        initLengthToSpinner();
+        ArrayAdapter<CharSequence> lengthAdapter = ArrayAdapter.createFromResource(this, R.array.length_units_array, R.layout.simple_spinner_item);
+        lengthAdapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
+
+        Spinner mLengthFromSpinner = (Spinner) findViewById(R.id.length_from_spinner);
+        Spinner mLengthToSpinner = (Spinner) findViewById(R.id.length_to_spinner);
+        mLengthFromSpinner.setAdapter(lengthAdapter);
+        mLengthToSpinner.setAdapter(lengthAdapter);
+
+        mLengthFromSpinner.setOnItemSelectedListener(new FromSpinner());
+        mLengthToSpinner.setOnItemSelectedListener(new ToSpinner());
+    }
+
+    class FromSpinner implements Spinner.OnItemSelectedListener
+    {
+        @Override
+        public void onItemSelected(AdapterView parent, View v, int position,
+                                   long id) {
+            TextView unitFrom = (TextView) findViewById(R.id.enter_amount_unit);
+            switch (position) {
+                case 0:     unitFrom.setText("km");
+                    break;
+                case 1:     unitFrom.setText("m");
+                    break;
+                case 2:     unitFrom.setText("cm");
+                    break;
+                case 3:     unitFrom.setText("mm");
+                    break;
+            }
+
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView parent) {
+            // TODO Auto-generated method stub
+            // Do nothing.
+        }
 
     }
 
-    private void initLengthFromSpinner() {
-        mLengthSpinner = (Spinner) findViewById(R.id.length_from_spinner);
-        ArrayAdapter<CharSequence> lengthAdapter = ArrayAdapter.createFromResource(this, R.array.length_units_array, R.layout.simple_spinner_item);
-        lengthAdapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
-        mLengthSpinner.setAdapter(lengthAdapter);
-    }
+    class ToSpinner implements Spinner.OnItemSelectedListener
+    {
+        @Override
+        public void onItemSelected(AdapterView parent, View v, int position,
+                                   long id) {
+            TextView unitFrom = (TextView) findViewById(R.id.result_amount_unit);
+            switch (position) {
+                case 0:     unitFrom.setText("km");
+                    break;
+                case 1:     unitFrom.setText("m");
+                    break;
+                case 2:     unitFrom.setText("cm");
+                    break;
+                case 3:     unitFrom.setText("mm");
+                    break;
+            }
 
-    private void initLengthToSpinner() {
-        mLengthSpinner = (Spinner) findViewById(R.id.length_to_spinner);
-        ArrayAdapter<CharSequence> lengthAdapter = ArrayAdapter.createFromResource(this, R.array.length_units_array, R.layout.simple_spinner_item);
-        lengthAdapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
-        mLengthSpinner.setAdapter(lengthAdapter);
+        }
+
+        @Override
+        public void onNothingSelected(AdapterView parent) {
+            // TODO Auto-generated method stub
+            // Do nothing.
+        }
+
     }
 }
+
+
