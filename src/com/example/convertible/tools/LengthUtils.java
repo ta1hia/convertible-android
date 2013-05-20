@@ -32,4 +32,29 @@ public class LengthUtils {
     public static Double metresToMilliimetres(Double m) {
         return (m*1000);
     }
+
+    public static Double centimetresToKilometres(Double cm) {
+        return (cm/100000);
+    }
+
+    public static Double centimetresToMetres(Double cm) {
+        return (cm/100);
+    }
+
+    public static Double centimetresToMillimetres(Double cm) {
+        return (cm*10);
+    }
+
+    public static Double millimetresToKilometres(Double mm) {
+        return (mm/1000000);
+    }
+
+    public static Double millimetresToMetres(Double mm) {
+        return (mm/1000);
+    }
+
+    public static Double millimetresToCentimetres(Double mm) {
+        return (mm/10);
+    }
+
 }

@@ -68,7 +68,7 @@ public class LengthConversionActivity extends Activity {
     }
 
     public void onLengthConvertClick(View view) {
-        mFromLength = Double.parseDouble(mFromLengthView.getText().toString());
+        mFromLength = (mFromLengthView.getText().toString()).equals("") ? 0.0 : Double.parseDouble(mFromLengthView.getText().toString());
 
         if (mFromUnit == KILOMETRES) {
             switch (mToUnit) {
@@ -99,6 +99,40 @@ public class LengthConversionActivity extends Activity {
                     break;
                 case MILIMETRES:
                     mToLength = LengthUtils.metresToMilliimetres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                default:
+                    break;
+            }
+        } else if (mFromUnit == CENTIMETRES) {
+            switch (mToUnit) {
+                case KILOMETRES:
+                    mToLength = LengthUtils.centimetresToKilometres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                case METRES:
+                    mToLength = LengthUtils.centimetresToMetres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                case MILIMETRES:
+                    mToLength = LengthUtils.centimetresToMillimetres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                default:
+                    break;
+            }
+        } else if (mFromUnit == MILIMETRES) {
+            switch (mToUnit) {
+                case KILOMETRES:
+                    mToLength = LengthUtils.millimetresToKilometres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                case METRES:
+                    mToLength = LengthUtils.millimetresToMetres(mFromLength);
+                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    break;
+                case CENTIMETRES:
+                    mToLength = LengthUtils.millimetresToCentimetres(mFromLength);
                     mToLengthView.setText( String.format("%.3f", mToLength));
                     break;
                 default:
