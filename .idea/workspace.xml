@@ -24,10 +24,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/example/convertible/view/AreaConversion.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/length_screen.xml" afterPath="$PROJECT_DIR$/res/layout/length_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/red_button.xml" afterPath="$PROJECT_DIR$/res/drawable/red_button.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sexy-convert.iws" />
@@ -37,7 +36,7 @@
     <file path="/a.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319999752" ignored="false" />
     <file path="/DisplayMessageActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368295002124" ignored="false" />
     <file path="/BaseActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368371851834" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369008468911" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369019655253" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368393615724" ignored="false" />
     <file path="/style.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368317768372" ignored="false" />
     <file path="/style1.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319484292" ignored="false" />
@@ -59,9 +58,9 @@
     <file path="/area_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385208641" ignored="false" />
     <file path="/edittext_green_state.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368381896651" ignored="false" />
     <file path="/area_icon.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385031245" ignored="false" />
-    <file path="/length_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369017195167" ignored="false" />
+    <file path="/length_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369020180325" ignored="false" />
     <file path="/blue_gradient.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388897521" ignored="false" />
-    <file path="/LengthConversionActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369012790632" ignored="false" />
+    <file path="/LengthConversionActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369022191257" ignored="false" />
     <file path="/yellow_gradient.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368389415452" ignored="false" />
     <file path="/volume_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388037549" ignored="false" />
     <file path="/VolumeConversionClass.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388076770" ignored="false" />
@@ -84,6 +83,7 @@
     <file path="/simple_spinner_dropdown_item.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369008722736" ignored="false" />
     <file path="/simple_spinner_item.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369010523434" ignored="false" />
     <file path="/button.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369016947025" ignored="false" />
+    <file path="/LengthUtils.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369020838127" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +140,68 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" line="70" class="com.example.convertible.activity.LengthConversionActivity" package="com.example.convertible.activity">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" line="72" class="com.example.convertible.activity.LengthConversionActivity" package="com.example.convertible.activity">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" line="114" class="com.example.convertible.activity.LengthConversionActivity.FromSpinner" package="com.example.convertible.activity">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" line="142" class="com.example.convertible.activity.LengthConversionActivity.ToSpinner" package="com.example.convertible.activity">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -155,55 +217,38 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="19" selection-start="6780" selection-end="6780" vertical-scroll-proportion="-8.68">
+            <state line="148" column="0" selection-start="6258" selection-end="6258" vertical-scroll-proportion="-13.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purple_gradient.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/purple_gradient.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="141" selection-end="291" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="purple_button.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/drawable/purple_button.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="605" selection-end="605" vertical-scroll-proportion="0.4054054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="red_button.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/red_button.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="length_units_array.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/length_units_array.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="42" selection-start="75" selection-end="93" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LengthConversionActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LengthConversionActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="3666" selection-end="3667" vertical-scroll-proportion="0.0">
+            <state line="84" column="51" selection-start="3363" selection-end="3363" vertical-scroll-proportion="0.614486">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#initPage#0;class#LengthConversionActivity#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionMenuActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="49" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LengthUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="21" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,7 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/options_screen.xml" />
         <option value="$PROJECT_DIR$/src/com/example/convertible/activity/AngleConversionActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
@@ -237,11 +281,12 @@
         <option value="$PROJECT_DIR$/res/values/length_units_array.xml" />
         <option value="$PROJECT_DIR$/res/layout/simple_spinner_dropdown_item.xml" />
         <option value="$PROJECT_DIR$/res/layout/simple_spinner_item.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
         <option value="$PROJECT_DIR$/res/drawable/red_button.xml" />
         <option value="$PROJECT_DIR$/res/drawable/button.xml" />
-        <option value="$PROJECT_DIR$/res/layout/length_screen.xml" />
         <option value="$PROJECT_DIR$/res/drawable/purple_button.xml" />
+        <option value="$PROJECT_DIR$/res/layout/length_screen.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
       </list>
     </option>
   </component>
@@ -309,7 +354,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convertible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tools" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="convertible" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -326,10 +401,6 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -344,7 +415,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="editor.preferences.import" />
+    <property name="options.lastSelected" value="editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -564,14 +635,12 @@
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7312" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1816733" sideWeight="0.7264" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1816733" sideWeight="0.608" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.6912752" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3408" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2672" sideWeight="0.5011952" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -583,7 +652,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2310757" sideWeight="0.7264" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2736" sideWeight="0.49880478" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.224" sideWeight="0.49880478" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
@@ -655,16 +726,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/angle_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="26" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/AreaConversionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="13" selection-start="0" selection-end="1296" vertical-scroll-proportion="0.0">
@@ -679,13 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="64" selection-start="3237" selection-end="3237" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
@@ -693,21 +747,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/options_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="35" selection-start="5597" selection-end="5597" vertical-scroll-proportion="-16.8">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/dark_green_gradient.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="57" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/simple_spinner_dropdown_item.xml">
@@ -730,27 +772,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="3666" selection-end="3667" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/length_units_array.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="75" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/red_button.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="41" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
@@ -760,27 +784,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/length_screen.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/res/drawable/purple_button.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="19" selection-start="6780" selection-end="6780" vertical-scroll-proportion="-8.68">
+        <state line="15" column="11" selection-start="807" selection-end="807" vertical-scroll-proportion="0.5257009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/length_units_array.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="42" selection-start="75" selection-end="93" vertical-scroll-proportion="0.07009346">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable/purple_gradient.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="141" selection-end="291" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="141" selection-end="291" vertical-scroll-proportion="0.17523365">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/purple_button.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/options_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="605" selection-end="605" vertical-scroll-proportion="0.4054054">
+        <state line="132" column="35" selection-start="5597" selection-end="5597" vertical-scroll-proportion="0.765625">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/length_screen.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="6258" selection-end="6258" vertical-scroll-proportion="-13.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="49" selection-start="2561" selection-end="2561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="51" selection-start="3363" selection-end="3363" vertical-scroll-proportion="0.614486">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initPage#0;class#LengthConversionActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
