@@ -1,12 +1,16 @@
 package com.example.convertible.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.*;
 import com.example.convertible.tools.LengthUtils;
 import com.example.convertible.R;
+import android.view.inputmethod.InputMethodManager;
 
 
 public class LengthConversionActivity extends Activity {
@@ -37,6 +41,22 @@ public class LengthConversionActivity extends Activity {
 
         mFromLengthView = (EditText) findViewById(R.id.enter_amount);
         mToLengthView = (EditText) findViewById(R.id.result_amount);
+
+        mFromLengthView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+            @Override
+            public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if (actionId == EditorInfo.IME_ACTION_DONE) {
+                    lengthConversionCalculator();
+                    v.clearFocus();
+                    InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+                    imm.hideSoftInputFromWindow(v.getWindowToken(), 0);
+                    return true;
+                }
+                return false;
+            }
+        });
+
+
         initPage();
     }
 
@@ -71,7 +91,7 @@ public class LengthConversionActivity extends Activity {
         mLengthToSpinner.setOnItemSelectedListener(new ToSpinner());
     }
 
-    public void onLengthConvertClick(View view) {
+    public void lengthConversionCalculator() {
         mFromLength = (mFromLengthView.getText().toString()).equals("") ? 0.0 : Double.parseDouble(mFromLengthView.getText().toString());
 
         if (mFromUnit == KILOMETRES) {
@@ -193,6 +213,7 @@ public class LengthConversionActivity extends Activity {
                     unitFrom.setText("in");
                     break;
             }
+            lengthConversionCalculator();
 
         }
 
@@ -236,6 +257,7 @@ public class LengthConversionActivity extends Activity {
                     unitFrom.setText("in");
                     break;
             }
+            lengthConversionCalculator();
         }
 
         @Override
