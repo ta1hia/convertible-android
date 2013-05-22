@@ -79,4 +79,28 @@ public class LengthUtils {
         return (mi*1.60934);
     }
 
+    public static Double mileToMetre(Double mi) {
+        return (mi*1609.34);
+    }
+
+    public static Double mileToCentimetre(Double mi) {
+        return (mi*160934);
+    }
+
+    public static Double mileToMillimetre(Double mi) {
+        return (mi*1609344);
+    }
+
+    public static Double mileToFoot(Double mi) {
+        return (mi*5280);
+    }
+
+    public static Double mileToYard(Double mi) {
+        return (mi*1760);
+    }
+
+    public static Double mileToInch(Double mi) {
+        return (mi*63360);
+    }
+
 }
