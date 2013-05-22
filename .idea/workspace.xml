@@ -23,11 +23,7 @@
     </option>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/length_screen.xml" afterPath="$PROJECT_DIR$/res/layout/length_screen.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="" />
     <ignored path="sexy-convert.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368293266254" ignored="false" />
@@ -164,7 +160,7 @@
       <file leaf-file-name="LengthConversionActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="216" column="26" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.84771574">
+            <state line="216" column="26" selection-start="8884" selection-end="8884" vertical-scroll-proportion="-0.055837564">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1377#1962#0" expanded="true" />
@@ -768,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="27" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/length_screen.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -785,9 +774,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="27" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="26" selection-start="8884" selection-end="8884" vertical-scroll-proportion="0.84771574">
+        <state line="216" column="26" selection-start="8884" selection-end="8884" vertical-scroll-proportion="-0.055837564">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1377#1962#0" expanded="true" />
