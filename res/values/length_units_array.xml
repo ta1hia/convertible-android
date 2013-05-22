@@ -5,5 +5,9 @@
         <item>metre</item>
         <item>centimetre</item>
         <item>millimetre</item>
+        <item>mile</item>
+        <item>foot</item>
+        <item>yard</item>
+        <item>inch</item>
     </string-array>
 </resources>
