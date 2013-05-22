@@ -1,5 +1,7 @@
 package com.example.convertible.tools;
 
+import java.lang.Math;
+
 /**
  * Created with IntelliJ IDEA.
  * User: shawli
@@ -21,6 +23,10 @@ public class LengthUtils {
         return (km*1000000);
     }
 
+    public static Double kilometreToMile(Double km) {
+        return (km*0.621371);
+    }
+
     public static Double metresToKilometres(Double m) {
         return (m / 1000);
     }
@@ -32,4 +38,45 @@ public class LengthUtils {
     public static Double metresToMilliimetres(Double m) {
         return (m*1000);
     }
+
+    public static Double metresToMiles(Double m) {
+        return (m*0.000621371);
+    }
+
+    public static Double centimetresToKilometres(Double cm) {
+        return (cm/100000);
+    }
+
+    public static Double centimetresToMetres(Double cm) {
+        return (cm/100);
+    }
+
+    public static Double centimetresToMillimetres(Double cm) {
+        return (cm*10);
+    }
+
+    public static Double centimetresToMile(Double cm) {
+        return (cm*6.2137*Math.pow(10, -6));
+    }
+
+    public static Double millimetresToKilometres(Double mm) {
+        return (mm/1000000);
+    }
+
+    public static Double millimetresToMetres(Double mm) {
+        return (mm/1000);
+    }
+
+    public static Double millimetresToCentimetres(Double mm) {
+        return (mm/10);
+    }
+
+    public static Double millimetresToMile(Double mm) {
+        return (mm*6.2137*Math.pow(10, -7));
+    }
+
+    public static Double mileToKilometre(Double mi) {
+        return (mi*1.60934);
+    }
+
 }

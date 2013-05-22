@@ -14,7 +14,11 @@ public class LengthConversionActivity extends Activity {
     final static int KILOMETRES = 0;
     final static int METRES = 1;
     final static int CENTIMETRES = 2;
-    final static int MILIMETRES = 3;
+    final static int MILLIMETRE = 3;
+    final static int MILE = 4;
+    final static int FOOT = 5;
+    final static int YARD = 6;
+    final static int INCH = 7;
 
     private EditText mFromLengthView;
     private EditText mToLengthView;
@@ -68,21 +72,25 @@ public class LengthConversionActivity extends Activity {
     }
 
     public void onLengthConvertClick(View view) {
-        mFromLength = Double.parseDouble(mFromLengthView.getText().toString());
+        mFromLength = (mFromLengthView.getText().toString()).equals("") ? 0.0 : Double.parseDouble(mFromLengthView.getText().toString());
 
         if (mFromUnit == KILOMETRES) {
             switch (mToUnit) {
                 case METRES:
                     mToLength = LengthUtils.kilometreToMetre(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 case CENTIMETRES:
                     mToLength = LengthUtils.kilometreToCentimetre(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
-                case MILIMETRES:
+                case MILLIMETRE:
                     mToLength = LengthUtils.kilometreToMillimetre(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILE:
+                    mToLength = LengthUtils.kilometreToMile(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 default:
                     break;
@@ -91,15 +99,61 @@ public class LengthConversionActivity extends Activity {
             switch (mToUnit) {
                 case KILOMETRES:
                     mToLength = LengthUtils.metresToKilometres(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 case CENTIMETRES:
                     mToLength = LengthUtils.metresToCentimetres(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
-                case MILIMETRES:
+                case MILLIMETRE:
                     mToLength = LengthUtils.metresToMilliimetres(mFromLength);
-                    mToLengthView.setText( String.format("%.3f", mToLength));
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILE:
+                    mToLength = LengthUtils.metresToMiles(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                default:
+                    break;
+            }
+        } else if (mFromUnit == CENTIMETRES) {
+            switch (mToUnit) {
+                case KILOMETRES:
+                    mToLength = LengthUtils.centimetresToKilometres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case METRES:
+                    mToLength = LengthUtils.centimetresToMetres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILLIMETRE:
+                    mToLength = LengthUtils.centimetresToMillimetres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILE:
+                    mToLength = LengthUtils.centimetresToMile(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                default:
+                    break;
+            }
+        } else if (mFromUnit == MILLIMETRE) {
+            switch (mToUnit) {
+                case KILOMETRES:
+                    mToLength = LengthUtils.millimetresToKilometres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case METRES:
+                    mToLength = LengthUtils.millimetresToMetres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case CENTIMETRES:
+                    mToLength = LengthUtils.millimetresToCentimetres(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILE:
+                    mToLength = LengthUtils.millimetresToMile(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 default:
                     break;
@@ -107,21 +161,36 @@ public class LengthConversionActivity extends Activity {
         }
     }
 
-    class FromSpinner implements Spinner.OnItemSelectedListener
-    {
+    class FromSpinner implements Spinner.OnItemSelectedListener {
         @Override
         public void onItemSelected(AdapterView parent, View v, int position,
                                    long id) {
             TextView unitFrom = (TextView) findViewById(R.id.enter_amount_unit);
             mFromUnit = position;
             switch (position) {
-                case KILOMETRES:     unitFrom.setText("km");
+                case KILOMETRES:
+                    unitFrom.setText("km");
                     break;
-                case METRES:     unitFrom.setText("m");
+                case METRES:
+                    unitFrom.setText("m");
                     break;
-                case CENTIMETRES:     unitFrom.setText("cm");
+                case CENTIMETRES:
+                    unitFrom.setText("cm");
                     break;
-                case MILIMETRES:     unitFrom.setText("mm");
+                case MILLIMETRE:
+                    unitFrom.setText("mm");
+                    break;
+                case MILE:
+                    unitFrom.setText("mi");
+                    break;
+                case FOOT:
+                    unitFrom.setText("ft");
+                    break;
+                case YARD:
+                    unitFrom.setText("yd");
+                    break;
+                case INCH:
+                    unitFrom.setText("in");
                     break;
             }
 
@@ -135,21 +204,36 @@ public class LengthConversionActivity extends Activity {
 
     }
 
-    class ToSpinner implements Spinner.OnItemSelectedListener
-    {
+    class ToSpinner implements Spinner.OnItemSelectedListener {
         @Override
         public void onItemSelected(AdapterView parent, View v, int position,
                                    long id) {
             TextView unitFrom = (TextView) findViewById(R.id.result_amount_unit);
             mToUnit = position;
             switch (position) {
-                case KILOMETRES:     unitFrom.setText("km");
+                case KILOMETRES:
+                    unitFrom.setText("km");
                     break;
-                case METRES:     unitFrom.setText("m");
+                case METRES:
+                    unitFrom.setText("m");
                     break;
-                case CENTIMETRES:     unitFrom.setText("cm");
+                case CENTIMETRES:
+                    unitFrom.setText("cm");
                     break;
-                case MILIMETRES:     unitFrom.setText("mm");
+                case MILLIMETRE:
+                    unitFrom.setText("mm");
+                    break;
+                case MILE:
+                    unitFrom.setText("mi");
+                    break;
+                case FOOT:
+                    unitFrom.setText("ft");
+                    break;
+                case YARD:
+                    unitFrom.setText("yd");
+                    break;
+                case INCH:
+                    unitFrom.setText("in");
                     break;
             }
         }
