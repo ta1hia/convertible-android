@@ -81,7 +81,7 @@ public class LengthConversionActivity extends Activity {
         txt.setTypeface(font2);
 
         ArrayAdapter<CharSequence> lengthAdapter = ArrayAdapter.createFromResource(this, R.array.length_units_array, R.layout.simple_spinner_item);
-        lengthAdapter.setDropDownViewResource(R.layout.simple_spinner_dropdown_item);
+        lengthAdapter.setDropDownViewResource(R.layout.dropdown_item);
 
         Spinner mLengthFromSpinner = (Spinner) findViewById(R.id.length_from_spinner);
         Spinner mLengthToSpinner = (Spinner) findViewById(R.id.length_to_spinner);

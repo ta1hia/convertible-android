@@ -24,8 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b748293-6b68-49cb-a24a-0066bc944088" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/dropdown_item.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java" afterPath="$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sexy-convert.iws" />
@@ -35,7 +35,7 @@
     <file path="/a.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319999752" ignored="false" />
     <file path="/DisplayMessageActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368295002124" ignored="false" />
     <file path="/BaseActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368371851834" ignored="false" />
-    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369312603554" ignored="false" />
+    <file path="/Dummy.txt" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369319726049" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368393615724" ignored="false" />
     <file path="/style.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368317768372" ignored="false" />
     <file path="/style1.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368319484292" ignored="false" />
@@ -59,7 +59,7 @@
     <file path="/area_icon.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368385031245" ignored="false" />
     <file path="/length_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369267713112" ignored="false" />
     <file path="/blue_gradient.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388897521" ignored="false" />
-    <file path="/LengthConversionActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369318807357" ignored="false" />
+    <file path="/LengthConversionActivity.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369319786346" ignored="false" />
     <file path="/yellow_gradient.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368389415452" ignored="false" />
     <file path="/volume_screen.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388037549" ignored="false" />
     <file path="/VolumeConversionClass.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1368388076770" ignored="false" />
@@ -83,6 +83,7 @@
     <file path="/simple_spinner_item.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369010523434" ignored="false" />
     <file path="/button.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369016947025" ignored="false" />
     <file path="/LengthUtils.java" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369313317843" ignored="false" />
+    <file path="/dropdown_item.xml" changelist="3b748293-6b68-49cb-a24a-0066bc944088" time="1369320301332" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,12 +162,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LengthConversionActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LengthConversionActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="41" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.45146728">
+            <state line="83" column="68" selection-start="3092" selection-end="3092" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#lengthConversionCalculator#0;class#LengthConversionActivity#0" expanded="false" />
+                <element signature="class#FromSpinner#0;class#LengthConversionActivity#0" expanded="false" />
+                <element signature="class#ToSpinner#0;class#LengthConversionActivity#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropdown_item.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/dropdown_item.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="28" selection-start="392" selection-end="392" vertical-scroll-proportion="-4.2">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -179,10 +196,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LengthUtils.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LengthUtils.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="43" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
+            <state line="41" column="43" selection-start="935" selection-end="935" vertical-scroll-proportion="-2.7176723">
               <folding />
             </state>
           </provider>
@@ -206,7 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/convertible/activity/AngleConversionActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/convertible/activity/OptionMenuActivity.java" />
         <option value="$PROJECT_DIR$/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/res/drawable/dark_green_gradient.xml" />
@@ -222,6 +238,7 @@
         <option value="$PROJECT_DIR$/res/layout/length_screen.xml" />
         <option value="$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java" />
         <option value="$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dropdown_item.xml" />
       </list>
     </option>
   </component>
@@ -229,10 +246,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="x" value="64" />
+    <option name="y" value="-4" />
+    <option name="width" value="1303" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -338,6 +355,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sexy-convert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -585,32 +620,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
+    <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7312" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.7312" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12669323" sideWeight="0.8176" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.6912752" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980047" sideWeight="0.6912752" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3376" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19127516" sideWeight="0.5011971" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1824" sideWeight="0.5011952" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4672" sideWeight="0.49960095" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940239" sideWeight="0.7312" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.79530203" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.79530203" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3982442" sideWeight="0.8087248" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19127516" sideWeight="0.49880287" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39760956" sideWeight="0.8176" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1824" sideWeight="0.49880478" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988048" sideWeight="0.6704" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12749004" sideWeight="0.8064" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.224" sideWeight="0.49880478" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -679,13 +714,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/AngleConversionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="36" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0">
@@ -773,16 +801,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="43" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="83" column="68" selection-start="3092" selection-end="3092" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#lengthConversionCalculator#0;class#LengthConversionActivity#0" expanded="false" />
+            <element signature="class#FromSpinner#0;class#LengthConversionActivity#0" expanded="false" />
+            <element signature="class#ToSpinner#0;class#LengthConversionActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/activity/LengthConversionActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/dropdown_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="41" selection-start="1367" selection-end="1367" vertical-scroll-proportion="0.45146728">
+        <state line="7" column="28" selection-start="392" selection-end="392" vertical-scroll-proportion="-4.2">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/convertible/tools/LengthUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="43" selection-start="935" selection-end="935" vertical-scroll-proportion="-2.7176723">
           <folding />
         </state>
       </provider>
