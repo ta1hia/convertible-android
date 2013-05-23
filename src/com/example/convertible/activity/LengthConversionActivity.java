@@ -41,6 +41,7 @@ public class LengthConversionActivity extends Activity {
 
         mFromLengthView = (EditText) findViewById(R.id.enter_amount);
         mToLengthView = (EditText) findViewById(R.id.result_amount);
+        mToLengthView.setKeyListener(null);
 
         mFromLengthView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -112,6 +113,10 @@ public class LengthConversionActivity extends Activity {
                     mToLength = LengthUtils.kilometreToMile(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
+                case FOOT:
+                    mToLength = LengthUtils.kilometreToFoot(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
                 default:
                     break;
             }
@@ -126,11 +131,15 @@ public class LengthConversionActivity extends Activity {
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 case MILLIMETRE:
-                    mToLength = LengthUtils.metresToMilliimetres(mFromLength);
+                    mToLength = LengthUtils.metresToMillimetre(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 case MILE:
                     mToLength = LengthUtils.metresToMiles(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case FOOT:
+                    mToLength = LengthUtils.metresToFoot(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 default:
@@ -154,6 +163,10 @@ public class LengthConversionActivity extends Activity {
                     mToLength = LengthUtils.centimetresToMile(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
+                case FOOT:
+                    mToLength = LengthUtils.centimetresToFoot(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
                 default:
                     break;
             }
@@ -173,6 +186,10 @@ public class LengthConversionActivity extends Activity {
                     break;
                 case MILE:
                     mToLength = LengthUtils.millimetresToMile(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case FOOT:
+                    mToLength = LengthUtils.millimetresToFoot(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 default:
@@ -206,6 +223,39 @@ public class LengthConversionActivity extends Activity {
                     break;
                 case INCH:
                     mToLength = LengthUtils.mileToInch(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                default:
+                    break;
+            }
+        } else if (mFromUnit == FOOT) {
+            switch (mToUnit) {
+                case KILOMETRES:
+                    mToLength = LengthUtils.footToKilometre(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case METRES:
+                    mToLength = LengthUtils.footToMetre(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case CENTIMETRES:
+                    mToLength = LengthUtils.footToCentimetre(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILLIMETRE:
+                    mToLength = LengthUtils.footToMillimetre(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case MILE:
+                    mToLength = LengthUtils.footToMile(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case YARD:
+                    mToLength = LengthUtils.footToYard(mFromLength);
+                    mToLengthView.setText(String.format("%.3f", mToLength));
+                    break;
+                case INCH:
+                    mToLength = LengthUtils.footToInch(mFromLength);
                     mToLengthView.setText(String.format("%.3f", mToLength));
                     break;
                 default:

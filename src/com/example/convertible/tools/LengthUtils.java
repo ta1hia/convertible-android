@@ -27,6 +27,10 @@ public class LengthUtils {
         return (km*0.621371);
     }
 
+    public static Double kilometreToFoot(Double km) {
+        return (km*3280.83989501);
+    }
+
     public static Double metresToKilometres(Double m) {
         return (m / 1000);
     }
@@ -35,12 +39,16 @@ public class LengthUtils {
         return (m*100);
     }
 
-    public static Double metresToMilliimetres(Double m) {
+    public static Double metresToMillimetre(Double m) {
         return (m*1000);
     }
 
     public static Double metresToMiles(Double m) {
         return (m*0.000621371);
+    }
+
+    public static Double metresToFoot(Double m) {
+        return (m*3.2808399);
     }
 
     public static Double centimetresToKilometres(Double cm) {
@@ -59,6 +67,10 @@ public class LengthUtils {
         return (cm*6.2137*Math.pow(10, -6));
     }
 
+    public static Double centimetresToFoot(Double cm) {
+        return (cm*0.0328084);
+    }
+
     public static Double millimetresToKilometres(Double mm) {
         return (mm/1000000);
     }
@@ -73,6 +85,10 @@ public class LengthUtils {
 
     public static Double millimetresToMile(Double mm) {
         return (mm*6.2137*Math.pow(10, -7));
+    }
+
+    public static Double millimetresToFoot(Double mm) {
+        return (mm*0.00328084);
     }
 
     public static Double mileToKilometre(Double mi) {
@@ -101,6 +117,34 @@ public class LengthUtils {
 
     public static Double mileToInch(Double mi) {
         return (mi*63360);
+    }
+
+    public static Double footToKilometre(Double ft) {
+        return (ft*0.0003048);
+    }
+
+    public static Double footToMetre(Double ft) {
+        return (ft*0.3048);
+    }
+
+    public static Double footToCentimetre(Double ft) {
+        return (ft*30.48);
+    }
+
+    public static Double footToMillimetre(Double ft) {
+        return (ft*304.8);
+    }
+
+    public static Double footToMile(Double ft) {
+        return (ft*0.00018939);
+    }
+
+    public static Double footToYard(Double ft) {
+        return (ft*333333);
+    }
+
+    public static Double footToInch(Double ft) {
+        return (ft*12);
     }
 
 }
