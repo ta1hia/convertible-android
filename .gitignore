@@ -1,11 +1,30 @@
-DEA Ignores
-*.iml
-*.ipr
-*.iws
-.idea/
+# built application files
+*.apk
+*.ap_
+
+# Java class files
+*.class
+
+# generated android files
+**bin/
+**target
+**gen/
+**tmp/
+out/
+
+# local configuration files
 local.properties
 
-# Generic Android ignores
-bin/
-target
-gen/
+# scripts
+.pyc
+
+# Intellij workspace-specific files
+**.idea/
+*.iml
+workspace.xml
+tasks.xml
+
+.DS_Store
+
+/.DS_Store
+
